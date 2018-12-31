@@ -1,7 +1,11 @@
+/*this is a program which takes in num and string
+*and last n  characters of integer
+ *  should be repeated in string
+ */
 package set1;
 
 import java.util.Scanner;
-    public class repeatnumber
+    public class Repeatnumber
     {
         public static void main(String[] args)
         {

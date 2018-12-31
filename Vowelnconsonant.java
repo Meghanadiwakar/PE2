@@ -19,7 +19,7 @@ public class Vowelnconsonant {
                 }
                 else
                 {
-                    System.out.println(str.charAt(i) + " = Consonent");
+                    System.out.println(str.charAt(i) + " = Consonant");
                 }
             }
 

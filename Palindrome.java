@@ -62,7 +62,7 @@ public class Palindrome {
                 }
             }
             else {
-                System.out.println(palnum + " is not a pallindrome");
+                System.out.println(palnum + " is not a palindrome");
             }
         }
 

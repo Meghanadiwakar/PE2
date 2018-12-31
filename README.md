@@ -1,3 +1,3 @@
 # website html css
-This is a simple restaurant website using html and css
+This is PE1 excercise of java
 ## Steps
