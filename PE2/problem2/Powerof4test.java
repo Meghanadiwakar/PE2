@@ -19,6 +19,5 @@ public class Powerof4test {
     public void testForNonInteger(){
 
     }
-    
 
 }
