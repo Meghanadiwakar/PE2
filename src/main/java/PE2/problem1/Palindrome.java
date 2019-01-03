@@ -1,8 +1,6 @@
 package PE2.problem1;
 
 
-
-
 public class Palindrome {
     public String reverse(String str) {
         String temp = "";
@@ -10,7 +8,6 @@ public class Palindrome {
             temp = temp + str.charAt(i);
 
         }
-
         if (temp.equals(str)) {
             return ("Palindrome");
         } else {

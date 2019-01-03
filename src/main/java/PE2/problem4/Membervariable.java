@@ -11,8 +11,7 @@ public class Membervariable {
         return Name;
     }
     public int memberAge(int Age)
-    {
-        if( Age == 0 )
+    { if( Age == 0 )
         {
             return 0;
         }

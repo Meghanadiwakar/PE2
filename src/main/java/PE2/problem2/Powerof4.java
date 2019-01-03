@@ -1,7 +1,6 @@
 package PE2.problem2;
 
 public class Powerof4 {
-
     static int isPowerOfFour(int n)
     {
         if(n == 0)

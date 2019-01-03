@@ -63,8 +63,8 @@ public class StudentTest {
             StudentTest c=new StudentTest();
 
             System.out.print("Average is: " + c.AverageCalculation(a,n));
-            System.out.print("min is    : " + c.getminimun(a,n));
-            System.out.print("max is    : " + c.getmaximum(a,n));
+            System.out.print("Min is    : " + c.getminimun(a,n));
+            System.out.print("Max is    : " + c.getmaximum(a,n));
 
         }
     }

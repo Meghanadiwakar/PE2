@@ -12,6 +12,7 @@ public class FactTest {
     }
 
 
+
     static long factCal1(long x) {
         int fact = 1;
         for (int i = 1; i <= x; i++) {
