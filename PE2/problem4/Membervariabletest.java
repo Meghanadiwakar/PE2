@@ -4,7 +4,7 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-public class NameAgeSalaryTest {
+public class Membervariabletest {
 
     @Test
     public void testForMemberVariables(){

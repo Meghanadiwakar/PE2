@@ -1,27 +1,35 @@
 package PE2.problem1;
 
-import org.junit.Test;
-
 import static org.junit.Assert.*;
-
+import org.junit.After;
+import org.junit.Before;
+import org.junit.Test;
 public class PalindromeTest {
-    @Test
-    public void testForReverseStringInput() {
-
+    Palindrome object;
+    @Before
+    public void setUp()
+    {
+        object = new Palindrome();
     }
-
-    @Test
-    public void testForReverseNumberInput() {
-
+    @After
+    public void tearDown(){
+        object = null;
     }
-
     @Test
-    public void testForPalindromeStringInput() {
-
+    public void testSuccess() {
+        String expectedValue = "Palindrome";
+        //Act
+        String actualValue = object.reverse("abcdcba");
+        //Assert
+        assertEquals(expectedValue,actualValue);
     }
-
     @Test
-    public void testForPalindromeNumberInput() {
-
+    public void testFailure() {
+        String expectedValue = "Palindrome";
+        //Act
+        String actualValue = object.reverse("abcd");
+        //Assert
+        assertNotEquals(expectedValue,actualValue);
     }
 }
+
