@@ -1,3 +1,7 @@
+/*/*Write a Java method to Reverse the given*
+* input & Check if it is a Palindrome.*/
+*/
+
 package com.stackroute.PE2;
 
 import org.junit.After;
@@ -17,6 +21,7 @@ public class PalindromeTest {
     public void tearDown(){
         object = null;
     }
+    //test for success.//
     @Test
     public void testSuccess() {
         String expectedValue = "Palindrome";
@@ -25,6 +30,7 @@ public class PalindromeTest {
         //Assert
         assertEquals(expectedValue,actualValue);
     }
+    //test for failure//
     @Test
     public void testFailure() {
         String expectedValue = "Palindrome";
@@ -33,6 +39,17 @@ public class PalindromeTest {
         //Assert
         assertNotEquals(expectedValue,actualValue);
     }
+//test for null//
+    @Test
+    public void testnull() {
+        String expectedValue = null;
+        //Act
+        String actualValue = object.reverse("");
+        //Assert
+        assertNotEquals(expectedValue,actualValue);
+    }
 }
+
+
 
 
